@@ -1,0 +1,28 @@
+<html>
+<head>
+<title>web
+</title>
+<style>
+div{border:3px solid black;
+border-radius:100px;
+background-color:red;
+height:100px;
+width:100px;
+position: relative;
+animation-name: ball;
+animation-duration: 3s;
+animation-timing-function:linear;
+}
+@keyframes ball {
+0%   {background-color:red; left:0px; top:0px;}
+25%  {background-color:aqua; animation-timing-function:ease-out;top:480px;}
+50% {background-color:green;animation-timing-function:ease-in;top:190px;}
+75% {background-color:blue;animation-timing-function:ease-out;top:480px;}
+100% {background-color:red;left:100%;top:0;}
+}
+</style>
+</head>
+<body>
+<div></div>
+</body>
+</html>
